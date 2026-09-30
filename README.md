@@ -1,6 +1,6 @@
 # Competitive Pricing Engine
 
-MVP for iStudio Singapore competitive pricing. The repository implements the deterministic M1 baseline, COURTS Singapore M2 adapter boundary, M3 identity mapping, M3.2 structured retrieval, and M4 operator/review workflow.
+MVP for competitive pricing. The repository implements the deterministic M1 baseline, M2 adapter boundary, M3 identity mapping, M3.2 structured retrieval, and M4 operator/review workflow.
 
 ## Current milestone
 M4 operator prototype.
@@ -24,7 +24,7 @@ Model/shadow mapping is advisory. Only exact trusted identifiers are auto-eligib
 ## Architecture
 
 ```text
-COURTS observation -> extraction -> normalization -> identity mapping -> market price -> pricing policy -> review -> mock publish -> audit
+Competitor site observation -> extraction -> normalization -> identity mapping -> market price -> pricing policy -> review -> mock publish -> audit
 ```
 
 See `docs/` for the product/engineering manual, mapping concepts, and milestone reports.
