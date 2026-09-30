@@ -1,0 +1,31 @@
+index,prototype_id,product_name,variant,istudio_sku,istudio_item_price_sgd,istudio_shipping_sgd,istudio_final_price_sgd,courts_item_price_sgd,courts_delivery_mode,courts_shipping_sgd,courts_final_price_sgd,courts_availability,competitive_final_price_sgd,competitive_source,notes
+0,P001,13-inch MacBook Air M5,10-core CPU/8-core GPU;16GB;512GB;Sky Blue,MDHH4ZP/A,1899.0,0.0,1899.0,1849.0,ECONOMY,0.0,1849.0,OUT_OF_STOCK,1899.0,iStudio,COURTS excluded from competitive minimum: availability OUT_OF_STOCK
+1,P002,13-inch MacBook Air M5,10-core CPU/8-core GPU;16GB;1TB;Starlight,MDHC4ZP/A,2349.0,0.0,2349.0,2299.0,ECONOMY,0.0,2299.0,OUT_OF_STOCK,2349.0,iStudio,COURTS excluded from competitive minimum: availability OUT_OF_STOCK
+2,P003,13-inch MacBook Air M5,10-core CPU/10-core GPU;24GB;512GB;Midnight,Z1L600009,2199.0,0.0,2199.0,,,,,,2199.0,iStudio,No exact live COURTS observation verified in this research pass.
+3,P004,15-inch MacBook Air M5,10-core CPU/10-core GPU;16GB;512GB;Silver,MDV94ZP/A,2199.0,0.0,2199.0,2149.0,ECONOMY,0.0,2149.0,IN_STOCK,2149.0,COURTS,
+4,P005,15-inch MacBook Air M5,10-core CPU/10-core GPU;16GB;1TB;Sky Blue,MDVT4ZP/A,2649.0,0.0,2649.0,2599.0,ECONOMY,0.0,2599.0,IN_STOCK,2599.0,COURTS,
+5,P006,14-inch MacBook Pro M5,10-core CPU/10-core GPU;16GB;1TB;Silver,MDE54ZP/A,2699.0,0.0,2699.0,,,,,,2699.0,iStudio,COURTS excluded from competitive minimum: availability UNKNOWN
+6,P007,13-inch MacBook Neo A18 Pro,6-core CPU/5-core GPU;8GB;256GB;Silver,MHFA4ZP/A,999.0,0.0,999.0,979.0,ECONOMY,0.0,979.0,IN_STOCK,979.0,COURTS,
+7,P008,iPad A16 Wi-Fi,128GB;Silver,MD3Y4ZP/A,649.0,0.0,649.0,,,,,,649.0,iStudio,No exact live COURTS observation verified in this research pass.
+8,P009,iPad mini A17 Pro Wi-Fi,128GB;Blue,MXN73ZP/A,849.0,0.0,849.0,,,,,,849.0,iStudio,No exact live COURTS observation verified in this research pass.
+9,P010,11-inch iPad Air M4 Wi-Fi,128GB;Space Grey,MH304ZP/A,981.14,0.0,981.14,958.0,ECONOMY,0.0,958.0,IN_STOCK,958.0,COURTS,
+10,P011,11-inch iPad Air M4 Wi-Fi,512GB;Starlight,MH3D4ZP/A,1431.14,0.0,1431.14,,,,,,1431.14,iStudio,No exact live COURTS observation verified in this research pass.
+11,P012,13-inch iPad Air M4 Wi-Fi,128GB;Blue,MH5P4ZP/A,1269.15,0.0,1269.15,,,,,,1269.15,iStudio,No exact live COURTS observation verified in this research pass.
+12,P013,11-inch iPad Pro M5 Wi-Fi,256GB;Space Black;Standard Glass,MDWK4ZP/A,1799.0,0.0,1799.0,1749.0,ECONOMY,0.0,1749.0,IN_STOCK,1749.0,COURTS,
+13,P014,AirPods 4,standard,MXP63ZA/A,199.0,10.0,209.0,189.0,ECONOMY,0.0,189.0,IN_STOCK,189.0,COURTS,
+14,P015,AirPods 4 with Active Noise Cancellation,ANC,MXP93ZA/A,249.0,10.0,259.0,239.0,ECONOMY,0.0,239.0,IN_STOCK,239.0,COURTS,
+15,P016,AirPods Pro 3,USB-C MagSafe case,MFHP4ZA/A,349.0,0.0,349.0,329.0,ECONOMY,0.0,329.0,IN_STOCK,329.0,COURTS,
+16,P017,EarPods USB-C,wired USB-C,MYQY3FE/A,29.0,10.0,39.0,29.0,ECONOMY,5.9,34.9,IN_STOCK,34.9,COURTS,
+17,P018,Apple Watch SE 3 GPS 40mm,Starlight Aluminium;Sand Sport Band;S/M,MJKR4X/A,349.0,0.0,349.0,,,,,,349.0,iStudio,No exact live COURTS observation verified in this research pass.
+18,P019,Apple Watch SE 3 GPS 44mm,Midnight Aluminium;Navy Blue Sport Band;S/M,MJL74X/A,389.0,0.0,389.0,,,,,,389.0,iStudio,No exact live COURTS observation verified in this research pass.
+19,P020,Apple Watch SE 3 GPS + Cellular 44mm,Midnight Aluminium;Navy Blue Sport Band;S/M,MJLQ4X/A,459.0,0.0,459.0,,,,,,459.0,iStudio,No exact live COURTS observation verified in this research pass.
+20,P021,Apple Watch Ultra 3 GPS + Cellular 49mm,Black Titanium;Black Trail Loop,MF1D4X/A,1199.0,0.0,1199.0,,,,,,1199.0,iStudio,No exact live COURTS observation verified in this research pass.
+21,P022,Apple Pencil Pro,2024,MX2D3ZA/A,161.94,10.0,171.94,159.0,STANDARD,30.0,189.0,IN_STOCK,171.94,iStudio,
+22,P023,Apple Pencil USB-C,USB-C,MUWA3ZA/A,119.0,10.0,129.0,99.0,STANDARD,30.0,129.0,IN_STOCK,129.0,iStudio,
+23,P024,Magic Mouse USB-C,White Multi-Touch Surface,MXK53ZA/A,99.0,10.0,109.0,99.0,ECONOMY,0.0,99.0,IN_STOCK,99.0,COURTS,
+24,P025,20W USB-C Power Adapter,20W,MUVT3ZP/A,29.0,10.0,39.0,19.9,ECONOMY,5.9,25.8,IN_STOCK,25.8,COURTS,
+25,P026,35W Dual USB-C Port Power Adapter,35W dual port,MW2K3ZP/A,79.0,10.0,89.0,79.0,ECONOMY,5.9,84.9,IN_STOCK,84.9,COURTS,
+26,P027,MagSafe Charger,1m,MGD74AM/A,59.0,10.0,69.0,59.0,STANDARD,30.0,89.0,IN_STOCK,69.0,iStudio,
+27,P028,AirTag 2nd Generation,1 pack,MFE94ZP/A,45.0,10.0,55.0,45.0,STANDARD,30.0,75.0,IN_STOCK,55.0,iStudio,
+28,P029,Apple TV 4K 3rd generation,Wi-Fi + Ethernet;128GB,MN893PA/A,379.0,0.0,379.0,359.0,STANDARD,5.9,364.9,IN_STOCK,364.9,COURTS,
+29,P030,Apple Watch Magnetic Fast Charger to USB-C Cable,1m,MT0H3FE/A,39.0,10.0,49.0,,,,,,49.0,iStudio,No exact live COURTS observation verified in this research pass.
