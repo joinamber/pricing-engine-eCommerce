@@ -1,6 +1,6 @@
 # Product–Engineering Manual: Competitor Onboarding, Collector Repair & Pricing Exception Investigation
 
-**Version:** 1.0 — design proposal | **Operating model:** small engineering team, limited operations | **Automation:** L2 bounded autonomy | **Status:** specification, not deployed software
+**Version:** 1.0 — design proposal | **Operating model:** small ML/engineering team, limited operations | **Automation:** L2 bounded autonomy | **Status:** specification, in progress
 
 ## 0. Executive decision
 
@@ -13,7 +13,7 @@ Neither agent has authority to modify final price, margin floors, product identi
 
 ### Evidence provenance
 
-**From the supplied Coupang documents:** competitor onboarding was reported at **12 days**, with a proposed **3-day** target; collector data validation was described as taking up to **10 days**; large site-layout change MTTR was reported at **5 days** and ordinary changes at **3 days**; proposals included AI-assisted collector generation, headless-browser comparison, sample-based anomaly discovery, and repair. The pricing documents also describe manual matching/button bottlenecks, prioritization queues, policy exceptions, and sharpness misses. These are *reported baselines/proposals*, not independently verified production measurements.
+Competitor onboarding was reported at **12 days**, with a proposed **3-day** target; collector data validation was described as taking up to **10 days**; large site-layout change MTTR was reported at **5 days** and ordinary changes at **3 days**; proposals included AI-assisted collector generation, headless-browser comparison, sample-based anomaly discovery, and repair.
 
 **New recommendations in this manual:** service decomposition, typed tool permissions, data contracts, rollback gates, evaluation metrics, deployment architecture, and thresholds. Proposed numerical thresholds must be calibrated against country production data before release.
 
@@ -120,12 +120,12 @@ flowchart TD
 
 ```json
 {
-  "source_id": "tw_competitor_001",
+  "source_id": "xy_competitor_001",
   "source_version": "adapter-17",
   "access_method": "public_html",
   "permission_status": "approved",
   "rate_limit_policy_id": "rl-001",
-  "market": "TW",
+  "market": "xy",
   "owner_team": "pricing-platform"
 }
 ```
@@ -133,7 +133,7 @@ flowchart TD
 ```json
 {
   "observation_id": "obs-uuid",
-  "source_id": "tw_competitor_001",
+  "source_id": "xy_competitor_001",
   "listing_id": "listing-123",
   "raw_evidence_uri": "object://snapshots/immutable-key",
   "raw_evidence_hash": "sha256:...",
@@ -141,7 +141,7 @@ flowchart TD
   "schema_version": "offer-observation-v1",
   "observed_at": "2026-10-13T09:00:00Z",
   "title": {"value": "Example product", "evidence_path": "jsonld.name", "status": "VERIFIED"},
-  "price": {"amount": "1299.00", "currency": "TWD", "evidence_path": "jsonld.offers.price", "status": "VERIFIED"},
+  "price": {"amount": "1299.00", "currency": "USD", "evidence_path": "jsonld.offers.price", "status": "VERIFIED"},
   "availability": "IN_STOCK",
   "shipping": {"amount": null, "status": "UNKNOWN"},
   "validation_status": "PARTIAL",
@@ -156,7 +156,7 @@ Use decimal monetary values, explicit currency and tax basis, nullable unknowns,
 ```json
 {
   "incident_id": "inc-uuid",
-  "source_id": "tw_competitor_001",
+  "source_id": "xy_competitor_001",
   "adapter_version": "adapter-17",
   "detected_at": "2026-10-13T09:10:00Z",
   "symptoms": ["PRICE_PARSE_RATE_DROP"],
@@ -181,7 +181,7 @@ Use decimal monetary values, explicit currency and tax basis, nullable unknowns,
   "eligibility_decision_id": "elig-uuid",
   "pricing_decision_id": "price-uuid",
   "publication_attempt_id": "pub-uuid",
-  "policy_version": "tw-pricing-v5",
+  "policy_version": "xy-pricing-v5",
   "exception_type": "PRICE_NOT_UPDATED",
   "root_cause": null,
   "severity": "MEDIUM",
