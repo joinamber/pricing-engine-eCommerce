@@ -1,6 +1,6 @@
 # Competitive Pricing Engine
 
-MVP for competitive pricing. The repository implements the deterministic M1 baseline, M2 adapter boundary, M3 identity mapping, M3.2 structured retrieval, and M4 operator/review workflow.
+Inspired by my previous work at Coupang, I attempt to rearchitect the pricing engine by building an E2E MVP for competitive pricing. The repository implements the deterministic M1 baseline, M2 adapter boundary, M3 identity mapping, M3.2 structured retrieval, and M4 operator/review workflow.
 
 ## Current milestone
 M4 operator prototype.
