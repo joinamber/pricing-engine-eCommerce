@@ -453,3 +453,5 @@ If only two engineers are available, sequence COCR foundation first, then PEI, w
 ## 14. Final recommendation
 
 **Build the evidence foundation and deterministic baselines before introducing agents.** The first agent to production should be a *collector configuration and repair assistant* that produces tested proposals. The second should be a *read-only pricing exception investigator* that reconstructs causal evidence and reduces operator effort. Only after shadow and canary evaluation should either gain narrowly scoped reversible action rights. Success is measured by reliable competitor observations and shorter verified incident resolution—not by agent invocation count or automation percentage alone.
+
+**Disclaimer:** All projects and content featured here are created in my personal capacity and do not reflect the views or positions of my previous employers.
