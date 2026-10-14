@@ -28,3 +28,6 @@ Competitor site observation -> extraction -> normalization -> identity mapping -
 ```
 
 See `docs/` for the product/engineering manual, mapping concepts, and milestone reports.
+
+## Disclaimer
+Opinions and work are my own. They do not represent my previous employer.
